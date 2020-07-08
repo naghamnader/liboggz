@@ -1,0 +1,22 @@
+{
+  "name": "liboggz",
+  "version": "0.1.0",
+  "summary": "A short description of liboggz.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nagham/liboggz",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nagham": "nagham.nader@lyth.de"
+  },
+  "source": {
+    "git": "https://github.com/nagham/liboggz.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "liboggz/Classes/**/*"
+}

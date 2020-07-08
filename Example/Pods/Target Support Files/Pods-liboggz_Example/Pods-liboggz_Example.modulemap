@@ -1,0 +1,6 @@
+framework module Pods_liboggz_Example {
+  umbrella header "Pods-liboggz_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

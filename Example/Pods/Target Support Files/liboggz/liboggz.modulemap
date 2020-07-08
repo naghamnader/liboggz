@@ -1,0 +1,6 @@
+framework module liboggz {
+  umbrella header "liboggz-umbrella.h"
+
+  export *
+  module * { export * }
+}

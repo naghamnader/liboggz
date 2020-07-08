@@ -1,0 +1,16 @@
+PODS:
+  - liboggz (0.1.0)
+
+DEPENDENCIES:
+  - liboggz (from `../`)
+
+EXTERNAL SOURCES:
+  liboggz:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  liboggz: ed329b26dcec2ea34171cc721eaf82d7c2c899f6
+
+PODFILE CHECKSUM: 5a823a72b9f77eac6622d680fcf7ab34195e2797
+
+COCOAPODS: 1.9.3
