@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'liboggz_Example' do
+  pod 'liboggz', :path => '../'
+
+  target 'liboggz_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
