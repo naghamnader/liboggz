@@ -8,10 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		196F057317B6ED07E9D1300D9DF5E511 /* liboggz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4144DB663913DBD16024B7D8F1CBADB1 /* liboggz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C0339856D617C2BE31FA8CCD0F5FD8B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C59B62474D93146B4D91937F4229 /* ReplaceMe.m */; };
 		42003766EC6BEFCE785326CDF5D6EE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8005EAF58C52CE96D5DDBFD0F45A7522 /* Pods-liboggz_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA490A595E9D994176E3D0FF6A8AC4ED /* Pods-liboggz_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BA493949113F58FD188103FD1659AFE /* Pods-liboggz_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F102A099181A26C40872E38E6AEAA99 /* Pods-liboggz_Tests-dummy.m */; };
+		8E99FDFF24B5E30500F21E12 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD024B5E30500F21E12 /* config.h */; };
+		8E99FE0024B5E30500F21E12 /* oggz.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD324B5E30500F21E12 /* oggz.h */; };
+		8E99FE0124B5E30500F21E12 /* oggz_off_t_generated.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 8E99FDD424B5E30500F21E12 /* oggz_off_t_generated.h.in */; };
+		8E99FE0224B5E30500F21E12 /* oggz_seek.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD524B5E30500F21E12 /* oggz_seek.h */; };
+		8E99FE0324B5E30500F21E12 /* oggz_deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD624B5E30500F21E12 /* oggz_deprecated.h */; };
+		8E99FE0424B5E30500F21E12 /* oggz_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD724B5E30500F21E12 /* oggz_constants.h */; };
+		8E99FE0524B5E30500F21E12 /* oggz_write.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD824B5E30500F21E12 /* oggz_write.h */; };
+		8E99FE0624B5E30500F21E12 /* oggz_packet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDD924B5E30500F21E12 /* oggz_packet.h */; };
+		8E99FE0724B5E30500F21E12 /* oggz_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDDA24B5E30500F21E12 /* oggz_table.h */; };
+		8E99FE0824B5E30500F21E12 /* oggz_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDDB24B5E30500F21E12 /* oggz_stream.h */; };
+		8E99FE0924B5E30500F21E12 /* oggz_read.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDDC24B5E30500F21E12 /* oggz_read.h */; };
+		8E99FE0A24B5E30500F21E12 /* oggz_off_t_generated.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDDD24B5E30500F21E12 /* oggz_off_t_generated.h */; };
+		8E99FE0B24B5E30500F21E12 /* oggz_comments.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDDE24B5E30500F21E12 /* oggz_comments.h */; };
+		8E99FE0C24B5E30500F21E12 /* oggz_off_t.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDDF24B5E30500F21E12 /* oggz_off_t.h */; };
+		8E99FE0D24B5E30500F21E12 /* oggz_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDE024B5E30500F21E12 /* oggz_io.h */; };
+		8E99FE0E24B5E30500F21E12 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8E99FDE124B5E30500F21E12 /* README */; };
+		8E99FE0F24B5E30500F21E12 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 8E99FDE324B5E30500F21E12 /* COPYING */; };
+		8E99FE1024B5E30500F21E12 /* README.symbian in Resources */ = {isa = PBXBuildFile; fileRef = 8E99FDE424B5E30500F21E12 /* README.symbian */; };
+		8E99FE1124B5E30500F21E12 /* README.win32 in Resources */ = {isa = PBXBuildFile; fileRef = 8E99FDE524B5E30500F21E12 /* README.win32 */; };
+		8E99FE1224B5E30500F21E12 /* oggz_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDE824B5E30500F21E12 /* oggz_table.c */; };
+		8E99FE1324B5E30500F21E12 /* oggz_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDE924B5E30500F21E12 /* oggz_vector.h */; };
+		8E99FE1424B5E30500F21E12 /* metric_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDEA24B5E30500F21E12 /* metric_internal.c */; };
+		8E99FE1524B5E30500F21E12 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDEB24B5E30500F21E12 /* debug.h */; };
+		8E99FE1624B5E30500F21E12 /* dirac.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDEC24B5E30500F21E12 /* dirac.c */; };
+		8E99FE1724B5E30500F21E12 /* oggz_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDED24B5E30500F21E12 /* oggz_stream.c */; };
+		8E99FE1824B5E30500F21E12 /* oggz_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDEE24B5E30500F21E12 /* oggz_private.h */; };
+		8E99FE1924B5E30500F21E12 /* oggz_auto.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDEF24B5E30500F21E12 /* oggz_auto.c */; };
+		8E99FE1A24B5E30500F21E12 /* oggz_read.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDF024B5E30500F21E12 /* oggz_read.c */; };
+		8E99FE1B24B5E30500F21E12 /* oggz_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDF124B5E30500F21E12 /* oggz_io.c */; };
+		8E99FE1C24B5E30500F21E12 /* oggz_macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDF224B5E30500F21E12 /* oggz_macros.h */; };
+		8E99FE1D24B5E30500F21E12 /* oggz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDF324B5E30500F21E12 /* oggz_compat.h */; };
+		8E99FE1E24B5E30500F21E12 /* oggz_dlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDF424B5E30500F21E12 /* oggz_dlist.h */; };
+		8E99FE1F24B5E30500F21E12 /* oggz_comments.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDF524B5E30500F21E12 /* oggz_comments.c */; };
+		8E99FE2024B5E30500F21E12 /* oggz_vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDF624B5E30500F21E12 /* oggz_vector.c */; };
+		8E99FE2124B5E30500F21E12 /* oggz.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDF724B5E30500F21E12 /* oggz.c */; };
+		8E99FE2224B5E30500F21E12 /* oggz_seek.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDF824B5E30500F21E12 /* oggz_seek.c */; };
+		8E99FE2324B5E30500F21E12 /* dirac.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDF924B5E30500F21E12 /* dirac.h */; };
+		8E99FE2424B5E30500F21E12 /* oggz_stream_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDFA24B5E30500F21E12 /* oggz_stream_private.h */; };
+		8E99FE2524B5E30500F21E12 /* oggz_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDFB24B5E30500F21E12 /* oggz_write.c */; };
+		8E99FE2624B5E30500F21E12 /* oggz_auto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDFC24B5E30500F21E12 /* oggz_auto.h */; };
+		8E99FE2724B5E30500F21E12 /* oggz_dlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E99FDFD24B5E30500F21E12 /* oggz_dlist.c */; };
+		8E99FE2824B5E30500F21E12 /* oggz_byteorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99FDFE24B5E30500F21E12 /* oggz_byteorder.h */; };
 		966139A76162515F5F96B69F97AF5AC9 /* Pods-liboggz_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6557AEF32FEAC99EE31512FB21C3F70 /* Pods-liboggz_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D8C29BD1AD9B32B1788D30D83F8B216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AA10D2FAF367C228332A18D9D02CC814 /* Pods-liboggz_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F85785C7B0303559D272070AFB2F18C /* Pods-liboggz_Example-dummy.m */; };
@@ -40,22 +81,65 @@
 		026FD82092B6446336B2B81B594360EB /* Pods-liboggz_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-liboggz_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0ECE711CA7535B70A35E93FBDE3012C4 /* liboggz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "liboggz-Info.plist"; sourceTree = "<group>"; };
 		0F102A099181A26C40872E38E6AEAA99 /* Pods-liboggz_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-liboggz_Tests-dummy.m"; sourceTree = "<group>"; };
-		1AB60BA99C3D4755A58D6CE1DD50FA29 /* liboggz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = liboggz.framework; path = liboggz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB60BA99C3D4755A58D6CE1DD50FA29 /* liboggz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = liboggz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33175EB9F11574DA0194C8F71BC1A06E /* Pods-liboggz_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-liboggz_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3669539D7CDA3CDEA07A64A61E6F45A4 /* Pods-liboggz_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-liboggz_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F85785C7B0303559D272070AFB2F18C /* Pods-liboggz_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-liboggz_Example-dummy.m"; sourceTree = "<group>"; };
 		4144DB663913DBD16024B7D8F1CBADB1 /* liboggz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "liboggz-umbrella.h"; sourceTree = "<group>"; };
-		539F23D2376B5518C0174E2403F6D3DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		539F23D2376B5518C0174E2403F6D3DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		643EB35554A8A861CB524AC8653F7F47 /* Pods-liboggz_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-liboggz_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		74B4C8C4B945BC1D6D45E6E4AB078AEB /* liboggz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = liboggz.debug.xcconfig; sourceTree = "<group>"; };
-		8D9494A9D37DDE3290628067AF618A47 /* Pods_liboggz_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_liboggz_Tests.framework; path = "Pods-liboggz_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9494A9D37DDE3290628067AF618A47 /* Pods_liboggz_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liboggz_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E99FDD024B5E30500F21E12 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8E99FDD324B5E30500F21E12 /* oggz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz.h; sourceTree = "<group>"; };
+		8E99FDD424B5E30500F21E12 /* oggz_off_t_generated.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oggz_off_t_generated.h.in; sourceTree = "<group>"; };
+		8E99FDD524B5E30500F21E12 /* oggz_seek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_seek.h; sourceTree = "<group>"; };
+		8E99FDD624B5E30500F21E12 /* oggz_deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_deprecated.h; sourceTree = "<group>"; };
+		8E99FDD724B5E30500F21E12 /* oggz_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_constants.h; sourceTree = "<group>"; };
+		8E99FDD824B5E30500F21E12 /* oggz_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_write.h; sourceTree = "<group>"; };
+		8E99FDD924B5E30500F21E12 /* oggz_packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_packet.h; sourceTree = "<group>"; };
+		8E99FDDA24B5E30500F21E12 /* oggz_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_table.h; sourceTree = "<group>"; };
+		8E99FDDB24B5E30500F21E12 /* oggz_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_stream.h; sourceTree = "<group>"; };
+		8E99FDDC24B5E30500F21E12 /* oggz_read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_read.h; sourceTree = "<group>"; };
+		8E99FDDD24B5E30500F21E12 /* oggz_off_t_generated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_off_t_generated.h; sourceTree = "<group>"; };
+		8E99FDDE24B5E30500F21E12 /* oggz_comments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_comments.h; sourceTree = "<group>"; };
+		8E99FDDF24B5E30500F21E12 /* oggz_off_t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_off_t.h; sourceTree = "<group>"; };
+		8E99FDE024B5E30500F21E12 /* oggz_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_io.h; sourceTree = "<group>"; };
+		8E99FDE124B5E30500F21E12 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		8E99FDE224B5E30500F21E12 /* oggz.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = oggz.modulemap; sourceTree = "<group>"; };
+		8E99FDE324B5E30500F21E12 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		8E99FDE424B5E30500F21E12 /* README.symbian */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.symbian; sourceTree = "<group>"; };
+		8E99FDE524B5E30500F21E12 /* README.win32 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.win32; sourceTree = "<group>"; };
+		8E99FDE824B5E30500F21E12 /* oggz_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_table.c; sourceTree = "<group>"; };
+		8E99FDE924B5E30500F21E12 /* oggz_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_vector.h; sourceTree = "<group>"; };
+		8E99FDEA24B5E30500F21E12 /* metric_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = metric_internal.c; sourceTree = "<group>"; };
+		8E99FDEB24B5E30500F21E12 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		8E99FDEC24B5E30500F21E12 /* dirac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dirac.c; sourceTree = "<group>"; };
+		8E99FDED24B5E30500F21E12 /* oggz_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_stream.c; sourceTree = "<group>"; };
+		8E99FDEE24B5E30500F21E12 /* oggz_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_private.h; sourceTree = "<group>"; };
+		8E99FDEF24B5E30500F21E12 /* oggz_auto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_auto.c; sourceTree = "<group>"; };
+		8E99FDF024B5E30500F21E12 /* oggz_read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_read.c; sourceTree = "<group>"; };
+		8E99FDF124B5E30500F21E12 /* oggz_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_io.c; sourceTree = "<group>"; };
+		8E99FDF224B5E30500F21E12 /* oggz_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_macros.h; sourceTree = "<group>"; };
+		8E99FDF324B5E30500F21E12 /* oggz_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_compat.h; sourceTree = "<group>"; };
+		8E99FDF424B5E30500F21E12 /* oggz_dlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_dlist.h; sourceTree = "<group>"; };
+		8E99FDF524B5E30500F21E12 /* oggz_comments.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_comments.c; sourceTree = "<group>"; };
+		8E99FDF624B5E30500F21E12 /* oggz_vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_vector.c; sourceTree = "<group>"; };
+		8E99FDF724B5E30500F21E12 /* oggz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz.c; sourceTree = "<group>"; };
+		8E99FDF824B5E30500F21E12 /* oggz_seek.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_seek.c; sourceTree = "<group>"; };
+		8E99FDF924B5E30500F21E12 /* dirac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dirac.h; sourceTree = "<group>"; };
+		8E99FDFA24B5E30500F21E12 /* oggz_stream_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_stream_private.h; sourceTree = "<group>"; };
+		8E99FDFB24B5E30500F21E12 /* oggz_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_write.c; sourceTree = "<group>"; };
+		8E99FDFC24B5E30500F21E12 /* oggz_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_auto.h; sourceTree = "<group>"; };
+		8E99FDFD24B5E30500F21E12 /* oggz_dlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oggz_dlist.c; sourceTree = "<group>"; };
+		8E99FDFE24B5E30500F21E12 /* oggz_byteorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oggz_byteorder.h; sourceTree = "<group>"; };
 		9957392AD722F29358B4B8686BE910FE /* Pods-liboggz_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-liboggz_Tests.modulemap"; sourceTree = "<group>"; };
-		999921AD40D5EADF52F6D0DF374FABC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		999921AD40D5EADF52F6D0DF374FABC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9C014CCD9AB74425948092E3F0E7365E /* liboggz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = liboggz.release.xcconfig; sourceTree = "<group>"; };
 		9CC48EAF1D781F272A6A854900C64694 /* liboggz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "liboggz-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC0B8188C1228CFF587FC289FC69218B /* liboggz.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = liboggz.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC0B8188C1228CFF587FC289FC69218B /* liboggz.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = liboggz.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B50CD925222F50010F1AE411D23EC427 /* Pods-liboggz_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-liboggz_Example-Info.plist"; sourceTree = "<group>"; };
 		B976F1875F38F92CA697DA4AD8F4AA5A /* Pods-liboggz_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-liboggz_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA490A595E9D994176E3D0FF6A8AC4ED /* Pods-liboggz_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-liboggz_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -63,11 +147,10 @@
 		D6557AEF32FEAC99EE31512FB21C3F70 /* Pods-liboggz_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-liboggz_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6FEF13EE0FE3A6F37EF69E410677367 /* Pods-liboggz_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-liboggz_Tests-Info.plist"; sourceTree = "<group>"; };
 		DF73F799AA1F16A06188EDA1D7BF27FA /* Pods-liboggz_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-liboggz_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3D7C59B62474D93146B4D91937F4229 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = liboggz/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E45958052F5C2B2FC4D659881B08BB33 /* Pods-liboggz_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-liboggz_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E74D555CBCCCDD9DE7B1F3B72B5CB6A8 /* Pods-liboggz_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-liboggz_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F4880945320F4E93A65E49413A518536 /* Pods-liboggz_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-liboggz_Example.modulemap"; sourceTree = "<group>"; };
-		FA68D17F112ED709E52FCD6777B8B03E /* Pods_liboggz_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_liboggz_Example.framework; path = "Pods-liboggz_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA68D17F112ED709E52FCD6777B8B03E /* Pods_liboggz_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liboggz_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC52C532C543C4C294D0B95A3C65E9E0 /* Pods-liboggz_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-liboggz_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE4AB44F151C2F2D3076C9ABEE35218E /* liboggz-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "liboggz-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,7 +218,7 @@
 		2DB7F6C72DD53DCDFF1910AAE12B5D13 /* liboggz */ = {
 			isa = PBXGroup;
 			children = (
-				E3D7C59B62474D93146B4D91937F4229 /* ReplaceMe.m */,
+				8E99FDCF24B5E30500F21E12 /* 1.2.0-1-976a3 */,
 				87DE020B7C96FB8A34445950CB99848D /* Pod */,
 				030EC19014D9378031CB57568B7CE390 /* Support Files */,
 			);
@@ -196,6 +279,88 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		8E99FDCF24B5E30500F21E12 /* 1.2.0-1-976a3 */ = {
+			isa = PBXGroup;
+			children = (
+				8E99FDD024B5E30500F21E12 /* config.h */,
+				8E99FDD124B5E30500F21E12 /* include */,
+				8E99FDE124B5E30500F21E12 /* README */,
+				8E99FDE224B5E30500F21E12 /* oggz.modulemap */,
+				8E99FDE324B5E30500F21E12 /* COPYING */,
+				8E99FDE424B5E30500F21E12 /* README.symbian */,
+				8E99FDE524B5E30500F21E12 /* README.win32 */,
+				8E99FDE624B5E30500F21E12 /* src */,
+			);
+			path = "1.2.0-1-976a3";
+			sourceTree = "<group>";
+		};
+		8E99FDD124B5E30500F21E12 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8E99FDD224B5E30500F21E12 /* oggz */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8E99FDD224B5E30500F21E12 /* oggz */ = {
+			isa = PBXGroup;
+			children = (
+				8E99FDD324B5E30500F21E12 /* oggz.h */,
+				8E99FDD424B5E30500F21E12 /* oggz_off_t_generated.h.in */,
+				8E99FDD524B5E30500F21E12 /* oggz_seek.h */,
+				8E99FDD624B5E30500F21E12 /* oggz_deprecated.h */,
+				8E99FDD724B5E30500F21E12 /* oggz_constants.h */,
+				8E99FDD824B5E30500F21E12 /* oggz_write.h */,
+				8E99FDD924B5E30500F21E12 /* oggz_packet.h */,
+				8E99FDDA24B5E30500F21E12 /* oggz_table.h */,
+				8E99FDDB24B5E30500F21E12 /* oggz_stream.h */,
+				8E99FDDC24B5E30500F21E12 /* oggz_read.h */,
+				8E99FDDD24B5E30500F21E12 /* oggz_off_t_generated.h */,
+				8E99FDDE24B5E30500F21E12 /* oggz_comments.h */,
+				8E99FDDF24B5E30500F21E12 /* oggz_off_t.h */,
+				8E99FDE024B5E30500F21E12 /* oggz_io.h */,
+			);
+			path = oggz;
+			sourceTree = "<group>";
+		};
+		8E99FDE624B5E30500F21E12 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8E99FDE724B5E30500F21E12 /* liboggz */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8E99FDE724B5E30500F21E12 /* liboggz */ = {
+			isa = PBXGroup;
+			children = (
+				8E99FDE824B5E30500F21E12 /* oggz_table.c */,
+				8E99FDE924B5E30500F21E12 /* oggz_vector.h */,
+				8E99FDEA24B5E30500F21E12 /* metric_internal.c */,
+				8E99FDEB24B5E30500F21E12 /* debug.h */,
+				8E99FDEC24B5E30500F21E12 /* dirac.c */,
+				8E99FDED24B5E30500F21E12 /* oggz_stream.c */,
+				8E99FDEE24B5E30500F21E12 /* oggz_private.h */,
+				8E99FDEF24B5E30500F21E12 /* oggz_auto.c */,
+				8E99FDF024B5E30500F21E12 /* oggz_read.c */,
+				8E99FDF124B5E30500F21E12 /* oggz_io.c */,
+				8E99FDF224B5E30500F21E12 /* oggz_macros.h */,
+				8E99FDF324B5E30500F21E12 /* oggz_compat.h */,
+				8E99FDF424B5E30500F21E12 /* oggz_dlist.h */,
+				8E99FDF524B5E30500F21E12 /* oggz_comments.c */,
+				8E99FDF624B5E30500F21E12 /* oggz_vector.c */,
+				8E99FDF724B5E30500F21E12 /* oggz.c */,
+				8E99FDF824B5E30500F21E12 /* oggz_seek.c */,
+				8E99FDF924B5E30500F21E12 /* dirac.h */,
+				8E99FDFA24B5E30500F21E12 /* oggz_stream_private.h */,
+				8E99FDFB24B5E30500F21E12 /* oggz_write.c */,
+				8E99FDFC24B5E30500F21E12 /* oggz_auto.h */,
+				8E99FDFD24B5E30500F21E12 /* oggz_dlist.c */,
+				8E99FDFE24B5E30500F21E12 /* oggz_byteorder.h */,
+			);
+			path = liboggz;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,7 +411,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E99FE0B24B5E30500F21E12 /* oggz_comments.h in Headers */,
+				8E99FE0724B5E30500F21E12 /* oggz_table.h in Headers */,
+				8E99FE0324B5E30500F21E12 /* oggz_deprecated.h in Headers */,
+				8E99FE0624B5E30500F21E12 /* oggz_packet.h in Headers */,
+				8E99FE0024B5E30500F21E12 /* oggz.h in Headers */,
+				8E99FE0924B5E30500F21E12 /* oggz_read.h in Headers */,
+				8E99FE2324B5E30500F21E12 /* dirac.h in Headers */,
+				8E99FDFF24B5E30500F21E12 /* config.h in Headers */,
+				8E99FE1824B5E30500F21E12 /* oggz_private.h in Headers */,
+				8E99FE0424B5E30500F21E12 /* oggz_constants.h in Headers */,
+				8E99FE1D24B5E30500F21E12 /* oggz_compat.h in Headers */,
+				8E99FE0C24B5E30500F21E12 /* oggz_off_t.h in Headers */,
+				8E99FE2424B5E30500F21E12 /* oggz_stream_private.h in Headers */,
 				196F057317B6ED07E9D1300D9DF5E511 /* liboggz-umbrella.h in Headers */,
+				8E99FE1524B5E30500F21E12 /* debug.h in Headers */,
+				8E99FE1C24B5E30500F21E12 /* oggz_macros.h in Headers */,
+				8E99FE2624B5E30500F21E12 /* oggz_auto.h in Headers */,
+				8E99FE0D24B5E30500F21E12 /* oggz_io.h in Headers */,
+				8E99FE2824B5E30500F21E12 /* oggz_byteorder.h in Headers */,
+				8E99FE0524B5E30500F21E12 /* oggz_write.h in Headers */,
+				8E99FE1324B5E30500F21E12 /* oggz_vector.h in Headers */,
+				8E99FE0224B5E30500F21E12 /* oggz_seek.h in Headers */,
+				8E99FE0A24B5E30500F21E12 /* oggz_off_t_generated.h in Headers */,
+				8E99FE1E24B5E30500F21E12 /* oggz_dlist.h in Headers */,
+				8E99FE0824B5E30500F21E12 /* oggz_stream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +539,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E99FE0F24B5E30500F21E12 /* COPYING in Resources */,
+				8E99FE1024B5E30500F21E12 /* README.symbian in Resources */,
+				8E99FE0E24B5E30500F21E12 /* README in Resources */,
+				8E99FE0124B5E30500F21E12 /* oggz_off_t_generated.h.in in Resources */,
+				8E99FE1124B5E30500F21E12 /* README.win32 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +578,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95BA3E133B5F2818288BBF1AA1D6EDE /* liboggz-dummy.m in Sources */,
-				1C0339856D617C2BE31FA8CCD0F5FD8B /* ReplaceMe.m in Sources */,
+				8E99FE2524B5E30500F21E12 /* oggz_write.c in Sources */,
+				8E99FE2224B5E30500F21E12 /* oggz_seek.c in Sources */,
+				8E99FE2124B5E30500F21E12 /* oggz.c in Sources */,
+				8E99FE1F24B5E30500F21E12 /* oggz_comments.c in Sources */,
+				8E99FE1924B5E30500F21E12 /* oggz_auto.c in Sources */,
+				8E99FE1424B5E30500F21E12 /* metric_internal.c in Sources */,
+				8E99FE1624B5E30500F21E12 /* dirac.c in Sources */,
+				8E99FE2724B5E30500F21E12 /* oggz_dlist.c in Sources */,
+				8E99FE1724B5E30500F21E12 /* oggz_stream.c in Sources */,
+				8E99FE1A24B5E30500F21E12 /* oggz_read.c in Sources */,
+				8E99FE1B24B5E30500F21E12 /* oggz_io.c in Sources */,
+				8E99FE2024B5E30500F21E12 /* oggz_vector.c in Sources */,
+				8E99FE1224B5E30500F21E12 /* oggz_table.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,8 +730,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
