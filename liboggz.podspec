@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/nagham/liboggz'
+  s.homepage         = 'https://github.com/naghamnader/liboggz'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nagham' => 'nagham.nader@lyth.de' }
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'liboggz' => ['liboggz/Assets/*.png']
   # }
   
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
